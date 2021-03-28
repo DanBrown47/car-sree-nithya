@@ -1,0 +1,26 @@
+/**
+* @subsection   google-map.css
+*
+* @description  Easy as hell Google Map Api Jquery plugin.
+*
+* @author       Evgeniy Gusarov (Stmechanus || Diversant)
+*/
+.map_model {
+  height: 453px;
+}
+.map_model img {
+  max-width: none !important;
+}
+@media (max-width: 767px) {
+  .map_model {
+    height: 350px;
+  }
+}
+@media (max-width: 479px) {
+  .map_model {
+    height: 320px;
+  }
+}
+.map_locations {
+  display: none;
+}

@@ -1,0 +1,877 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>CarRepair</title>
+  <meta charset="utf-8">
+  <meta name="format-detection" content="telephone=no"/>
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+  <link href='https://fonts.googleapis.com/css?family=Raleway:400,700,800' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="css/grid.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <link rel="stylesheet" href="css/rd-mailform.css"/>
+  <link rel="stylesheet" href="css/rd-mailform-2.css"/>
+  <link rel="stylesheet" href="css/camera.css"/>
+  <link rel="stylesheet" href="css/owl-carousel.css"/>
+  <link rel="stylesheet" href="css/google-map.css"/>
+
+
+  <script src="js/jquery.js"></script>
+  <script src="js/jquery-migrate-1.2.1.js"></script>
+
+  <!--[if lt IE 9]>
+  <html class="lt-ie9">
+  <div style=' clear: both; text-align:center; position: relative;'>
+    <a href="http://windows.microsoft.com/en-US/internet-explorer/..">
+      <img src="images/ie8-panel/warning_bar_0000_us.jpg" border="0" height="42" width="820"
+           alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."/>
+    </a>
+  </div>
+  <script src="js/html5shiv.js"></script>
+  <![endif]-->
+
+  <script src='js/device.min.js'></script>
+</head>
+<body>
+<div class="page">
+  <!--========================================================
+                            HEADER
+  =========================================================-->
+  <header>
+    <div id="stuck_container" class="stuck_container">
+      <div class="container">
+        <!-- Brend -->
+        <div class="rd-navbar-brand">
+          <div class="rd-navbar-brand__name">
+            <a href="./">
+              <span class="text-primary rd-navbar-brand__icon car-repire-icon-33"></span>
+              <span>Car</span><span class="text-primary">repair</span>
+            </a>
+          </div>
+        </div>
+        <!-- END Brand -->
+
+        <address class="contact-info">
+          <p>
+            46 Hummocky Road, Karatta, South Australia(5223)
+          </p>
+          <a class="bold heading-3" href="callto:#">
+            <span class="text-icon-sm text-primary">
+              <span class="icon fa-phone"></span>
+              <span class="note">
+                24/7
+              </span>
+            </span>
+            (08) 8250 6738
+          </a>
+        </address>
+
+      </div>
+    </div>
+  </header>
+  <!--========================================================
+                            CONTENT
+  =========================================================-->
+  <main>
+
+    <!-- Camera -->
+    <section class="camera_container">
+      <div id="camera" class="camera_wrap">
+        <!-- Camera item -->
+        <div data-src="images/img01.jpg">
+          <div class="camera_caption fadeIn">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-8 col-sm-6">
+                  <h1>
+                    Service, Repair
+                    <br/>
+                    and store
+                  </h1>
+                  <h4>
+                    Auto Repair is committed to earning your
+                    <br class="visible-md"/>
+                    trust by providing the expertise, value
+                    <br class="visible-md"/>
+                    and responsiveness you expect.
+                  </h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- END Camera item -->
+        <!-- Camera item -->
+        <div data-src="images/img02.jpg">
+          <div class="camera_caption fadeIn">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-8 col-sm-6">
+                  <h1>
+                    Cooling
+                    <br/>
+                    System Service
+                    <br/>
+                    <span class="text-primary">
+                      $20 Off*
+                    </span>
+                  </h1>
+                  <h4>
+                    Cooling System Pressure Test
+                    <br class="visible-md"/>
+                    Inspection of Belts and Hoses
+                    <br class="visible-md"/>
+                    Machine Flush Cooling System
+                    <br class="visible-md"/>
+                    New Coolant
+                  </h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- END Camera item -->
+        <!-- Camera item -->
+        <div data-src="images/img03.jpg">
+          <div class="camera_caption fadeIn">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-8 col-sm-6">
+                  <h1>
+                    Wheel
+                    <br/>
+                    Alignments -
+                    <br/>
+                    <span class="text-primary">
+                      $10 Off
+                    </span>
+                  </h1>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- END Camera item -->
+      </div>
+      <div class="onCamera-abs">
+        <div class="onCamera">
+          <div class="bg-primary inset-1 booking-form onCamera__cnt">
+            <h3 class="ubold">Make a request</h3>
+            <!-- RD Mailform -->
+            <form class='rd-mailform ' method="post" action="bat/rd-mailform.php">
+              <!-- RD Mailform Type -->
+              <input type="hidden" name="form-type" value="contact"/>
+              <!-- END RD Mailform Type -->
+              <fieldset>
+                <label data-add-placeholder>
+                  <input type="text"
+                         name="name"
+                         placeholder="Name"
+                         data-constraints="@NotEmpty @LettersOnly"/>
+                </label>
+                <label data-add-placeholder>
+                  <input type="text"
+                         name="phone"
+                         placeholder="Phone"
+                         data-constraints="@NotEmpty @NumbersOnly"/>
+                </label>
+
+                <label data-add-placeholder data-add-icon>
+                  <input type="date"
+                         name="date"
+                         data-placeholder="Date"
+                         data-constraints="@Date"/>
+                </label>
+                <label data-add-placeholder>
+                  <select name="time" data-constraints="@SelectRequired">
+                    <option>Time</option>
+                    <option>11:00 - 13:00</option>
+                    <option>13:00 - 16:00</option>
+                    <option>16:00 - 18:00</option>
+                  </select>
+                </label>
+                <label data-add-placeholder>
+                  <input type="text"
+                         name="make"
+                         placeholder="Make a request"
+                         data-constraints="@NotEmpty"/>
+                </label>
+                <label data-add-placeholder>
+                  <input type="text"
+                         name="model"
+                         placeholder="Model"
+                         data-constraints="@NotEmpty"/>
+                </label>
+                <label data-add-placeholder>
+                  <select name="year" data-constraints="@SelectRequired">
+                    <option>Production year</option>
+                    <option>2016</option><option>2015</option><option>2014</option><option>2013</option><option>2012</option><option>2011</option><option>2010</option><option>2009</option><option>2008</option><option>2007</option><option>2006</option><option>2005</option><option>2004</option><option>2003</option><option>2002</option><option>2001</option><option>2000</option><option>1999</option><option>1998</option><option>1997</option><option>1996</option><option>1995</option><option>1994</option><option>1993</option><option>1992</option><option>1991</option><option>1990</option><option>1989</option><option>1988</option><option>1987</option><option>1986</option><option>1985</option><option>1984</option><option>1983</option><option>1982</option><option>1981</option><option>1980</option><option>1979</option><option>1978</option><option>1977</option><option>1976</option><option>1975</option><option>1974</option><option>1973</option><option>1972</option><option>1971</option><option>1970</option><option>1969</option><option>1968</option><option>1967</option><option>1966</option><option>1965</option><option>1964</option><option>1963</option><option>1962</option><option>1961</option><option>1960</option><option>1959</option><option>1958</option><option>1957</option><option>1956</option><option>1955</option><option>1954</option><option>1953</option><option>1952</option><option>1951</option><option>1950</option><option>1949</option><option>1948</option><option>1947</option><option>1946</option><option>1945</option><option>1944</option><option>1943</option><option>1942</option><option>1941</option><option>1940</option><option>1939</option><option>1938</option><option>1937</option><option>1936</option><option>1935</option><option>1934</option><option>1933</option><option>1932</option><option>1931</option><option>1930</option><option>1929</option><option>1928</option><option>1927</option><option>1926</option><option>1925</option><option>1924</option><option>1923</option><option>1922</option><option>1921</option><option>1920</option><option>1919</option><option>1918</option><option>1917</option><option>1916</option><option>1915</option><option>1914</option><option>1913</option><option>1912</option><option>1911</option><option>1910</option><option>1909</option><option>1908</option><option>1907</option><option>1906</option><option>1905</option><option>1904</option><option>1903</option><option>1902</option><option>1901</option><option>1900</option>
+                  </select>
+                </label>
+
+                <div class="mfControls btn-group">
+                  <button class="btn btn-lg btn-default" type="submit">Make an Appointment</button>
+                </div>
+
+                <div class="mfInfo"></div>
+              </fieldset>
+            </form>
+            <!-- END RD Mailform -->
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END Camera -->
+
+    <!-- Section -->
+    <section class="well-md">
+      <div class="container">
+        <h2 class="text-center">
+          Auto Repair Services
+        </h2>
+        <h4 class="text-center">
+          We offer a variety of services to help you get back on
+          <br/>
+          the road and keep your life safer
+        </h4>
+        <div class="row flow-offset-1">
+          <div class="col-sm-6 col-md-4 col-sm-clear col-md-release wow fadeInLeft" data-wow-delay="0.2s">
+            <div class="box-xs">
+              <div class="box_left text-xs-center">
+                <span class="icon icon-lg icon-primary car-repire-icon-22"></span>
+              </div>
+              <div class="box_cnt">
+                <h4 class="text-primary bold">Oil Changes</h4>
+
+                <p>
+                  Regularly changing your oil and filter will help the engine work its best.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 wow fadeInLeft" data-wow-delay="0.1s">
+            <div class="box-xs">
+              <div class="box_left text-xs-center">
+                <span class="icon icon-lg icon-primary car-repire-icon-15"></span>
+              </div>
+              <div class="box_cnt">
+                <h4 class="text-primary bold">Brakes</h4>
+
+                <p>
+                  Brake maintenance is crucial to keeping your vehicle operating safely.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 col-sm-clear col-md-release wow fadeInLeft">
+            <div class="box-xs">
+              <div class="box_left text-xs-center">
+                <span class="icon icon-lg icon-primary car-repire-icon-28"></span>
+              </div>
+              <div class="box_cnt">
+                <h4 class="text-primary bold">Transmission
+                  Service  </h4>
+
+                <p>
+                  A well maintained transmission can save you from problems later in your vehicle's life.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 wow fadeInRight" data-wow-delay="0.2s">
+            <div class="box-xs">
+              <div class="box_left text-xs-center">
+                <span class="icon icon-lg icon-primary car-repire-icon-32"></span>
+              </div>
+              <div class="box_cnt">
+                <h4 class="text-primary bold">Tires & Wheels</h4>
+
+                <p>
+                  Regularly inspect and service your tires to prevent a blowout, a flat, or a costly accident.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 col-sm-clear col-md-release wow fadeInRight" data-wow-delay="0.1s">
+            <div class="box-xs">
+              <div class="box_left text-xs-center">
+                <span class="icon icon-lg icon-primary car-repire-icon-47"></span>
+              </div>
+              <div class="box_cnt">
+                <h4 class="text-primary bold">A/C</h4>
+
+                <p>
+                  Keep your car cool and increase your gas mileage with regular AC checks.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 wow fadeInRight">
+            <div class="box-xs">
+              <div class="box_left text-xs-center">
+                <span class="icon icon-lg icon-primary car-repire-icon-16"></span>
+              </div>
+              <div class="box_cnt">
+                <h4 class="text-primary bold">Engine
+                  Performance</h4>
+
+                <p>
+                  Keep a well-tuned engine for maximum performance.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <!-- END Section -->
+
+    <!-- Section -->
+    <section class="well-md well-md--inset-1 bg-default">
+      <div class="container text-center">
+        <h2>Maintenance Service Packages</h2>
+        <h4>View pricing for additional car repair service packages</h4>
+        <div class="row text-left offset-1">
+          <div class="col-md-6">
+            <div class="pricing-table inset-2 wow fadeInUp">
+              <h4 class="pricing-table__heading text-primary">Free Services</h4>
+              <ul>
+                <li>
+                  <p class="pricing-table__title">
+                    <a href="#">
+                      Wiper Blade Installation
+                    </a>
+                  </p>
+                  <div class="pricing-table__price text-primary">
+                    FREE
+                  </div>
+                </li>
+                <li>
+                  <p class="pricing-table__title">
+                    <a href="#">
+                      Check Engine Light Code Retrieval
+                    </a>
+                  </p>
+
+                  <div class="pricing-table__price text-primary">
+                    FREE
+                  </div>
+                </li>
+                <li>
+                  <p class="pricing-table__title">
+                    <a href="#">
+                      Air Filter Replacement Installation
+                    </a>
+                  </p>
+
+                  <div class="pricing-table__price text-primary">
+                    FREE
+                  </div>
+                </li>
+                <li>
+                  <p class="pricing-table__title">
+                    <a href="#">
+                      Starting and Charging System Evaluation
+                    </a>
+                  </p>
+
+                  <div class="pricing-table__price text-primary">
+                    FREE
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="pricing-table inset-2 wow fadeInUp">
+              <h4 class="text-primary pricing-table__heading">Maintenance Services</h4>
+              <ul>
+                <li>
+                  <p class="pricing-table__title">
+                    <a href="#">
+                      Headlight Restoration
+                    </a>
+                  </p>
+
+                  <div class="pricing-table__price text-primary">
+                    from $49.99
+                  </div>
+                </li>
+                <li>
+                  <p class="pricing-table__title">
+                    <a href="#">
+                      Small Bulb Installation
+                    </a>
+                  </p>
+
+                  <div class="pricing-table__price text-primary">
+                    from $9.99
+                  </div>
+                </li>
+                <li>
+                  <p class="pricing-table__title">
+                    <a href="#">
+                      Cabin Air Filter Install
+                    </a>
+                  </p>
+
+                  <div class="pricing-table__price text-primary">
+                    from $15.00
+                  </div>
+                </li>
+                <li>
+                  <p class="pricing-table__title">
+                    <a href="#">
+                      Spring Maintenance Package
+                    </a>
+                  </p>
+
+                  <div class="pricing-table__price text-primary">
+                    from $79.99
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="pricing-table inset-2 wow fadeInUp">
+              <h4 class="text-primary pricing-table__heading">System Evaluations</h4>
+              <ul>
+                <li>
+                  <p class="pricing-table__title">
+                    <a href="#">
+                      A/C System Leak Evaluation
+                    </a>
+                  </p>
+                  <div class="pricing-table__price text-primary">
+                    from $49.99
+                  </div>
+                </li>
+                <li>
+                  <p class="pricing-table__title">
+                    <a href="#">
+                      Coolant System Evaluation
+                    </a>
+                  </p>
+
+                  <div class="pricing-table__price text-primary">
+                    from $9.99
+                  </div>
+                </li>
+                <li>
+                  <p class="pricing-table__title">
+                    <a href="#">
+                      Steering and Suspension System Evaluation
+                    </a>
+                  </p>
+
+                  <div class="pricing-table__price text-primary">
+                    from $15.00
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-6 border-sm-primary">
+            <div class="pricing-table inset-3 wow fadeInUp">
+              <h4 class="text-primary pricing-table__heading">Fluid Services</h4>
+              <ul>
+                <li>
+                  <p class="pricing-table__title">
+                    <a href="#">
+                      Engine Flush Service
+                    </a>
+                  </p>
+                  <div class="pricing-table__price text-primary">
+                    from $49.99
+                  </div>
+                </li>
+                <li>
+                  <p class="pricing-table__title">
+                    <a href="#">
+                      Transmission Fluid Service
+                    </a>
+                  </p>
+
+                  <div class="pricing-table__price text-primary">
+                    from $9.99
+                  </div>
+                </li>
+                <li>
+                  <p class="pricing-table__title">
+                    <a href="#">
+                      Brake Fluid Exchange
+                    </a>
+                  </p>
+
+                  <div class="pricing-table__price text-primary">
+                    from $15.00
+                  </div>
+                </li>
+                <li>
+                  <p class="pricing-table__title">
+                    <a href="#">
+                      Coolant Drain and Fill
+                    </a>
+                  </p>
+
+                  <div class="pricing-table__price text-primary">
+                    from $79.99
+                  </div>
+                </li>
+                <li>
+                  <p class="pricing-table__title">
+                    <a href="#">
+                      Power Steering Flush
+                    </a>
+                  </p>
+
+                  <div class="pricing-table__price text-primary">
+                    from $58.99
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="pricing-table inset-3 wow fadeInUp">
+              <h4 class="text-primary pricing-table__heading">Tune Ups</h4>
+              <ul>
+                <li>
+                  <p class="pricing-table__title">
+                    <a href="#">
+                      Spring Maintenance Package
+                    </a>
+                  </p>
+
+                  <div class="pricing-table__price text-primary">
+                    from $49.99
+                  </div>
+                </li>
+                <li>
+                  <p class="pricing-table__title">
+                    <a href="#">
+                      Summer Maintenance Package
+                    </a>
+                  </p>
+
+                  <div class="pricing-table__price text-primary">
+                    from $9.99
+                  </div>
+                </li>
+                <li>
+                  <p class="pricing-table__title">
+                    <a href="#">
+                      Winter Maintenance Package
+                    </a>
+                  </p>
+
+                  <div class="pricing-table__price text-primary">
+                    from $15.00
+                  </div>
+                </li>
+                <li>
+                  <p class="pricing-table__title">
+                    <a href="#">
+                      Smoke Test Diagnostic Service
+                    </a>
+                  </p>
+
+                  <div class="pricing-table__price text-primary">
+                    from $79.99
+                  </div>
+                </li>
+                <li>
+                  <p class="pricing-table__title">
+                    <a href="#">
+                      Cranks No Start Diagnostic Service
+                    </a>
+                  </p>
+
+                  <div class="pricing-table__price text-primary">
+                    from $58.99
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="pricing-table inset-3 wow fadeInUp">
+              <h4 class="text-primary pricing-table__heading">Coolant System</h4>
+              <ul>
+                <li>
+                  <p class="pricing-table__title">
+                    <a href="#">
+                      Engine Cooling System Check
+                    </a>
+                  </p>
+                  <div class="pricing-table__price text-primary">
+                    from $49.99
+                  </div>
+                </li>
+                <li>
+                  <p class="pricing-table__title">
+                    <a href="#">
+                      Drain & Fill Radiator
+                    </a>
+                  </p>
+
+                  <div class="pricing-table__price text-primary">
+                    from $9.99
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="btn btn-lg btn-primary">Make an Appointment</a>
+      </div>
+    </section>
+    <!-- END Section -->
+
+    <!-- Section -->
+    <section class="well-md well-md--inset-2">
+      <div class="container">
+        <h2 class="text-center">
+          Learn About Repair & Maintenance
+        </h2>
+        <h4 class="text-center">
+          OUR experts answer the most frequently asked questions about service.
+        </h4>
+        <div class="row text-sm-center flow-offset-1 offset-1">
+          <div class="col-sm-4 col-md-4 wow fadeInUp">
+            <div class="blog-post"><img src="images/img04.jpg" alt=""/>
+              <h4 class="text-primary bold">
+                <a href="#">
+                  Expensive Oil Changes
+                  Are Here to Stay
+                </a>
+
+              </h4>
+
+              <p>
+                Oil changes may be more expensive with the required 0W-20 weight oil compared to conventional oil,
+                but only having to service the car once or twice a year keeps annual costs to nearly a wash.
+              </p>
+            </div>
+          </div>
+          <div class="col-sm-4 col-md-4 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="blog-post"><img src="images/img05.jpg" alt=""/>
+              <h4 class="text-primary bold">
+                <a href="#">
+                  What's Included in
+                  a Tuneup?
+                </a>
+
+              </h4>
+
+              <p>
+                Actually, there is no such thing as a tuneup in the traditional sense of replacing parts to bring the
+                ignition and fuel systems up to specs for maximum performance and efficiency...
+              </p>
+            </div>
+          </div>
+          <div class="col-sm-4 col-md-4 wow fadeInUp" data-wow-delay="0.2s">
+            <div class="blog-post"><img src="images/img06.jpg" alt=""/>
+              <h4 class="text-primary bold">
+                <a href="#">
+                  Do You Really Need to
+                  Change Your Oil Every
+                  3,000 Miles?
+                </a>
+
+              </h4>
+
+              <p>
+                No, you don't, according to every auto manufacturer we've talked to. The main advocates of the 3,000-mile oil change schedule are those who would profit by it...
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END Section -->
+
+    <!-- Parallax -->
+    <section class="rd-parallax">
+      <div class="rd-parallax-layer" data-speed="0" data-type="media" data-url="images/parallax01.jpg"></div>
+      <div class="rd-parallax-layer well-xl text-center" data-speed="0.2"  data-type="html">
+        <!--data-fade="true"-->
+        <div class="container text-center">
+          <h2>
+            Wrecker SERVICES
+          </h2>
+          <h4>
+            Offering quick and efficient service to keep you on the road
+          </h4>
+          <a class="heading-1 text-icon-lg inset-4" href="callto:#">
+            <span class="link-icon text-primary">
+              <span class="icon fa-phone"></span>
+              <span class="note">
+                24/7
+              </span>
+            </span>
+            800-2345-6789
+          </a>
+        </div>
+      </div>
+    </section>
+    <!-- END Parallax -->
+
+    <!-- Section -->
+    <section class="well-sm">
+      <div class="container text-center">
+        <h2>
+          <span class="icon icon-md icon-primary-variant-1 car-repire-icon-quote-circled"></span>
+          Testimonials
+        </h2>
+        <div class="owl-carousel">
+          <blockquote class="text-center">
+            <img class="circle" src="images/img07.jpg" alt=""/>
+            <p>
+              <cite class="heading-4 text-primary bold text-center">
+                PITER
+              </cite>
+            </p>
+            <p>
+              <q>
+                Wow, I'm so happy with your service. You managed to exceed my expectations! You guys are very efficient and I will refer more people to your company!
+              </q>
+            </p>
+          </blockquote>
+          <blockquote class="text-center">
+            <img class="circle" src="images/img08.jpg" alt=""/>
+            <p>
+              <cite class="heading-4 text-primary bold text-center">
+                Adam
+              </cite>
+            </p>
+            <p>
+              <q>
+                Thank you very much. I’m impressed with your service. I’ve already told my friends about your company and your quick response, thanks again!
+              </q>
+            </p>
+          </blockquote>
+          <blockquote class="text-center">
+            <img class="circle" src="images/img09.jpg" alt=""/>
+            <p>
+              <cite class="heading-4 text-primary bold text-center">
+                tom
+              </cite>
+            </p>
+            <p>
+              <q>
+                I would just like to say thank you for your prompt and effective service, for your friendly and professional support staff! I will recommend your expert company to all my friends.
+              </q>
+            </p>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+    <!-- END  -->
+
+    <!-- Map -->
+    <section class="map">
+      <div id="google-map" class="map_model" data-zoom="12"></div>
+      <ul class="map_locations">
+        <li data-x="-73.9874068" data-y="40.643180">
+          <p> 9870 St Vincent Place, Glasgow, DC 45 Fr 45. <span>800 2345-6789</span></p>
+        </li>
+      </ul>
+    </section>
+    <!-- END Map -->
+
+  </main>
+
+  <!--========================================================
+                            FOOTER
+  =========================================================-->
+  <footer class="well-xs">
+    <div class="container">
+      <h2 class="text-center">Contacts</h2>
+      <div class="row offset-2">
+        <div class="col-sm-6 col-sm-push-6">
+          <!-- RD Mailform -->
+          <form class='rd-mailform-2 booking-form' method="post" action="bat/rd-mailform.php">
+            <!-- RD Mailform Type -->
+            <input type="hidden" name="form-type" value="contact"/>
+            <!-- END RD Mailform Type -->
+            <fieldset>
+              <label data-add-placeholder>
+                <input type="text"
+                       name="name"
+                       placeholder="Name:"
+                       data-constraints="@NotEmpty @LettersOnly"/>
+              </label>
+              <label data-add-placeholder>
+                <input type="text"
+                       name="phone"
+                       placeholder="Phone:"
+                       data-constraints="@NotEmpty @NumbersOnly"/>
+              </label>
+              <label data-add-placeholder>
+                <input type="text"
+                       name="phone"
+                       placeholder="E-mail:"
+                       data-constraints="@NotEmpty @Email"/>
+              </label>
+              <label data-add-placeholder>
+                <textarea name="message" placeholder="Message:"
+                          data-constraints="@NotEmpty"></textarea>
+              </label>
+              <div class="mfControls btn-group">
+                <button class="btn btn-lg btn-primary-variant-1" type="submit">Send</button>
+              </div>
+
+              <div class="mfInfo"></div>
+            </fieldset>
+          </form>
+          <!-- END RD Mailform -->
+        </div>
+        <div class="col-sm-6 col-sm-pull-6">
+          <address>
+            <ul class="contact-info">
+              <li>
+                <span class="icon icon-xs icon-primary-variant-1 car-repire-icon-warehouse"></span>
+                <p>
+                <a href="#">
+                  46 Hummocky Road, Karatta, South Australia(5223)
+                </a>
+                </p>
+              </li>
+              <li>
+                <span class="icon icon-xs icon-primary-variant-1 fa-phone"></span>
+                <p>
+                  <a href="callto:#">(08) 8250 6738</a>; <a href="callto:#">(08) 8250 6739</a>
+                </p>
+              </li>
+              <li>
+                <span class="icon icon-xs icon-primary-variant-1 fa-clock-o"></span>
+                <p>
+                  7 Days a week from 9:00 am to 7:00 pm
+                </p>
+              </li>
+              <li>
+                <span class="icon icon-xs small icon-primary-variant-1 fa-envelope"></span>
+                <p>
+                  <a href="mailto:#">
+                    info@abhinand.online
+                  </a>
+                </p>
+              </li>
+            </ul>
+          </address>
+          <ul class="inline-list">
+            <li><a href="#" class="icon icon-sm icon-primary-variant-2 fa-facebook"></a></li>
+            <li><a href="#" class="icon icon-sm icon-primary-variant-2 fa-twitter"></a></li>
+            <li><a href="#" class="icon icon-sm icon-primary-variant-2 fa-google-plus"></a></li>
+          </ul>
+          <p class="rights">
+            Car Repair © <span id="copyright-year"></span> All Rights Reserved
+            <!-- {%FOOTER_LINK} -->
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+</div>
+
+<script src="js/script.js"></script>
+<!-- Coded by Mnemon1k -->
+</body>
+</html>

@@ -1,0 +1,480 @@
+/*
+* @subsection   RD Mail Form
+*
+* @description  Describes style declarations for RD Mail Form extension
+*
+* @author       Evgeniy Gusarov
+* @link         https://ua.linkedin.com/pub/evgeniy-gusarov/8a/a40/54a
+* @version      1.1.2
+*/
+.rd-mailform-2 {
+  position: relative;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+}
+.rd-mailform-2 fieldset {
+  border: none;
+}
+.rd-mailform-2 fieldset > .row + .row {
+  margin-top: 20px;
+}
+
+.rd-mailform-2 label {
+  position: relative;
+  display: block;
+  width: 100%;
+  margin-top: 20px;
+}
+.rd-mailform-2 label:first-child {
+  margin-top: 0;
+}
+.rd-mailform-2 label input, .rd-mailform-2 label select {
+  height: 50px;
+}
+.rd-mailform-2 label input, .rd-mailform-2 label select, .rd-mailform-2 label textarea {
+  display: block;
+  width: 100%;
+  margin: 0;
+  -webkit-appearance: none;
+  font-size: 18px;
+  padding: 6px 18px;
+  line-height: 34px;
+  color: #fff;
+  background: transparent;
+  font-family: "Raleway", sans-serif;
+  border: 2px solid #374351;
+  border-radius: 2px;
+}
+.rd-mailform-2 label input:-moz-placeholder, .rd-mailform-2 label select:-moz-placeholder, .rd-mailform-2 label textarea:-moz-placeholder {
+  color: #fff;
+  opacity: 1;
+}
+.rd-mailform-2 label input::-webkit-input-placeholder, .rd-mailform-2 label select::-webkit-input-placeholder, .rd-mailform-2 label textarea::-webkit-input-placeholder {
+  color: #fff;
+  opacity: 1;
+}
+.rd-mailform-2 label input::-moz-placeholder, .rd-mailform-2 label select::-moz-placeholder, .rd-mailform-2 label textarea::-moz-placeholder {
+  color: #fff;
+  opacity: 1;
+}
+.rd-mailform-2 label input:-ms-input-placeholder, .rd-mailform-2 label select:-ms-input-placeholder, .rd-mailform-2 label textarea:-ms-input-placeholder {
+  color: #fff;
+  opacity: 1;
+}
+.rd-mailform-2 label textarea {
+  resize: vertical;
+  overflow: auto;
+  min-height: 50px;
+  height: 137px;
+  max-height: 205.5px;
+}
+.rd-mailform-2 label textarea:focus {
+  outline: none;
+}
+@media (min-width: 768px) {
+  .rd-mailform-2 label {
+    margin-top: 20px;
+  }
+}
+
+/*
+* MF Controls
+*/
+.rd-mailform-2 .mfControls {
+  margin-top: 30px;
+}
+.rd-mailform-2 .mfControls button {
+  width: auto;
+  padding: 16px 37px;
+  font: 800 18px/23px "Raleway", sans-serif;
+}
+
+@-ms-keyframes fout {
+  0% {
+    -moz-transform: scale(1) translateX(0);
+    -ms-transform: scale(1) translateX(0);
+    -o-transform: scale(1) translateX(0);
+    -webkit-transform: scale(1) translateX(0);
+    transform: scale(1) translateX(0);
+  }
+  100% {
+    -moz-transform: scale(0) translateX(0);
+    -ms-transform: scale(0) translateX(0);
+    -o-transform: scale(0) translateX(0);
+    -webkit-transform: scale(0) translateX(0);
+    transform: scale(0) translateX(0);
+  }
+}
+@-o-keyframes fout {
+  0% {
+    -moz-transform: scale(1) translateX(0);
+    -ms-transform: scale(1) translateX(0);
+    -o-transform: scale(1) translateX(0);
+    -webkit-transform: scale(1) translateX(0);
+    transform: scale(1) translateX(0);
+  }
+  100% {
+    -moz-transform: scale(0) translateX(0);
+    -ms-transform: scale(0) translateX(0);
+    -o-transform: scale(0) translateX(0);
+    -webkit-transform: scale(0) translateX(0);
+    transform: scale(0) translateX(0);
+  }
+}
+@-webkit-keyframes fout {
+  0% {
+    -moz-transform: scale(1) translateX(0);
+    -ms-transform: scale(1) translateX(0);
+    -o-transform: scale(1) translateX(0);
+    -webkit-transform: scale(1) translateX(0);
+    transform: scale(1) translateX(0);
+  }
+  100% {
+    -moz-transform: scale(0) translateX(0);
+    -ms-transform: scale(0) translateX(0);
+    -o-transform: scale(0) translateX(0);
+    -webkit-transform: scale(0) translateX(0);
+    transform: scale(0) translateX(0);
+  }
+}
+@-moz-keyframes fout {
+  0% {
+    -moz-transform: scale(1) translateX(0);
+    -ms-transform: scale(1) translateX(0);
+    -o-transform: scale(1) translateX(0);
+    -webkit-transform: scale(1) translateX(0);
+    transform: scale(1) translateX(0);
+  }
+  100% {
+    -moz-transform: scale(0) translateX(0);
+    -ms-transform: scale(0) translateX(0);
+    -o-transform: scale(0) translateX(0);
+    -webkit-transform: scale(0) translateX(0);
+    transform: scale(0) translateX(0);
+  }
+}
+@keyframes fout {
+  0% {
+    -moz-transform: scale(1) translateX(0);
+    -ms-transform: scale(1) translateX(0);
+    -o-transform: scale(1) translateX(0);
+    -webkit-transform: scale(1) translateX(0);
+    transform: scale(1) translateX(0);
+  }
+  100% {
+    -moz-transform: scale(0) translateX(0);
+    -ms-transform: scale(0) translateX(0);
+    -o-transform: scale(0) translateX(0);
+    -webkit-transform: scale(0) translateX(0);
+    transform: scale(0) translateX(0);
+  }
+}
+/*
+* MF Placeholder
+*/
+.rd-mailform-2 .mfPlaceHolder {
+  cursor: text;
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding: 6px 18px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 34px;
+  color: #fff;
+  opacity: 1;
+  transition: .2s all ease;
+}
+*:-webkit-autofill ~ .rd-mailform-2 .mfPlaceHolder {
+  opacity: 0;
+  -moz-transform: translateX(-100%);
+  -ms-transform: translateX(-100%);
+  -o-transform: translateX(-100%);
+  -webkit-transform: translateX(-100%);
+  transform: translateX(-100%);
+}
+.rd-mailform-2 .mfPlaceHolder.state-1 {
+  opacity: 0;
+  -moz-transform: translateX(-100%);
+  -ms-transform: translateX(-100%);
+  -o-transform: translateX(-100%);
+  -webkit-transform: translateX(-100%);
+  transform: translateX(-100%);
+}
+@media (max-width: 767px) {
+  *:-webkit-autofill ~ .rd-mailform-2 .mfPlaceHolder {
+    opacity: 0;
+    -moz-transform: translateY(-80%);
+    -ms-transform: translateY(-80%);
+    -o-transform: translateY(-80%);
+    -webkit-transform: translateY(-80%);
+    transform: translateY(-80%);
+  }
+  .rd-mailform-2 .mfPlaceHolder.state-1 {
+    opacity: 0;
+    -moz-transform: translateY(-80%);
+    -ms-transform: translateY(-80%);
+    -o-transform: translateY(-80%);
+    -webkit-transform: translateY(-80%);
+    transform: translateY(-80%);
+  }
+}
+
+/*
+* MF Validation
+*/
+.rd-mailform-2 .mfValidation {
+  position: absolute;
+  color: #f00;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 20px;
+  opacity: 0;
+  visibility: hidden;
+  transition: .3s all ease;
+  top: 0;
+  right: 8px;
+  cursor: pointer;
+}
+.rd-mailform-2 .mfValidation:hover {
+  color: #1caffc;
+}
+.rd-mailform-2 .mfValidation.show {
+  opacity: 1;
+  visibility: visible;
+}
+.rd-mailform-2 .mfValidation.hide, .rd-mailform-2 .mfValidation.valid {
+  opacity: 0;
+  visibility: hidden;
+}
+
+/*
+* MF Submit
+*/
+.rd-mailform-2 .mfInfo,
+.rd-mailform-2 .mfProgress {
+  position: fixed;
+  left: 15px;
+  bottom: 15px;
+  padding: 17px;
+  height: 54px;
+  color: #FFF;
+  background: #111;
+  border-radius: 5px;
+  box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.11), 3px 4px 5px 0 rgba(0, 0, 0, 0.11);
+  line-height: 20px;
+  font-size: 13px;
+  transition: .3s all ease;
+  opacity: 0;
+  visibility: hidden;
+  -moz-transform: translateY(83px);
+  -ms-transform: translateY(83px);
+  -o-transform: translateY(83px);
+  -webkit-transform: translateY(83px);
+  transform: translateY(83px);
+  z-index: 999;
+}
+.rd-mailform-2 .mfInfo .loader,
+.rd-mailform-2 .mfProgress .loader {
+  display: inline-block;
+  position: relative;
+  margin-right: 16px;
+}
+.rd-mailform-2 .mfInfo .loader, .rd-mailform-2 .mfInfo .loader:before, .rd-mailform-2 .mfInfo .loader:after,
+.rd-mailform-2 .mfProgress .loader,
+.rd-mailform-2 .mfProgress .loader:before,
+.rd-mailform-2 .mfProgress .loader:after {
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+}
+.rd-mailform-2 .mfInfo .loader:before, .rd-mailform-2 .mfInfo .loader:after,
+.rd-mailform-2 .mfProgress .loader:before,
+.rd-mailform-2 .mfProgress .loader:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.rd-mailform-2 .mfInfo .loader:before,
+.rd-mailform-2 .mfProgress .loader:before {
+  -webkit-animation: mfLoader 1.1s infinite linear;
+  -moz-animation: mfLoader 1.1s infinite linear;
+  -ms-animation: mfLoader 1.1s infinite linear;
+  -o-animation: mfLoader 1.1s infinite linear;
+  animation: mfLoader 1.1s infinite linear;
+  border: 2px solid #FFF;
+  border-top-color: transparent;
+  border-radius: 50%;
+  opacity: 1;
+  visibility: visible;
+  transition: .3s all ease;
+}
+.rd-mailform-2 .mfInfo .loader:after,
+.rd-mailform-2 .mfProgress .loader:after {
+  opacity: 0;
+  visibility: hidden;
+  font-weight: 400;
+  font-family: "FontAwesome";
+  font-size: 20px;
+  transition: .6s all ease;
+  -moz-transform: rotate(-90deg) scale(0);
+  -ms-transform: rotate(-90deg) scale(0);
+  -o-transform: rotate(-90deg) scale(0);
+  -webkit-transform: rotate(-90deg) scale(0);
+  transform: rotate(-90deg) scale(0);
+}
+.rd-mailform-2 .mfInfo.fail,
+.rd-mailform-2 .mfProgress.fail {
+  background: #F34234;
+}
+.rd-mailform-2 .mfInfo.fail .loader:after,
+.rd-mailform-2 .mfProgress.fail .loader:after {
+  content: '\f00d';
+}
+.rd-mailform-2 .mfInfo.success,
+.rd-mailform-2 .mfProgress.success {
+  background: #2E7D32;
+}
+.rd-mailform-2 .mfInfo.success .loader:after,
+.rd-mailform-2 .mfProgress.success .loader:after {
+  content: '\f00c';
+}
+.rd-mailform-2 .mfInfo.fail .loader:before, .rd-mailform-2 .mfInfo.success .loader:before,
+.rd-mailform-2 .mfProgress.fail .loader:before,
+.rd-mailform-2 .mfProgress.success .loader:before {
+  opacity: 0;
+  visibility: hidden;
+  -moz-transform: scale(0);
+  -ms-transform: scale(0);
+  -o-transform: scale(0);
+  -webkit-transform: scale(0);
+  transform: scale(0);
+}
+.rd-mailform-2 .mfInfo.fail .loader:after, .rd-mailform-2 .mfInfo.success .loader:after,
+.rd-mailform-2 .mfProgress.fail .loader:after,
+.rd-mailform-2 .mfProgress.success .loader:after {
+  opacity: 1;
+  visibility: visible;
+  -moz-transform: rotate(0deg) scale(1);
+  -ms-transform: rotate(0deg) scale(1);
+  -o-transform: rotate(0deg) scale(1);
+  -webkit-transform: rotate(0deg) scale(1);
+  transform: rotate(0deg) scale(1);
+}
+.rd-mailform-2 .mfInfo.fail, .rd-mailform-2 .mfInfo.success, .rd-mailform-2 .mfInfo.sending,
+.rd-mailform-2 .mfProgress.fail,
+.rd-mailform-2 .mfProgress.success,
+.rd-mailform-2 .mfProgress.sending {
+  opacity: 1;
+  visibility: visible;
+  -moz-transform: translateY(0);
+  -ms-transform: translateY(0);
+  -o-transform: translateY(0);
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
+}
+@media (min-width: 768px) {
+  .rd-mailform-2 .mfInfo,
+  .rd-mailform-2 .mfProgress {
+    bottom: 24px;
+    left: 50%;
+    -moz-transform: translate(-50%, 83px);
+    -ms-transform: translate(-50%, 83px);
+    -o-transform: translate(-50%, 83px);
+    -webkit-transform: translate(-50%, 83px);
+    transform: translate(-50%, 83px);
+  }
+  .rd-mailform-2 .mfInfo.fail, .rd-mailform-2 .mfInfo.success, .rd-mailform-2 .mfInfo.sending,
+  .rd-mailform-2 .mfProgress.fail,
+  .rd-mailform-2 .mfProgress.success,
+  .rd-mailform-2 .mfProgress.sending {
+    -moz-transform: translate(-50%, 0);
+    -ms-transform: translate(-50%, 0);
+    -o-transform: translate(-50%, 0);
+    -webkit-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
+  }
+}
+
+@-ms-keyframes mfLoader {
+  0% {
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@-o-keyframes mfLoader {
+  0% {
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes mfLoader {
+  0% {
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@-moz-keyframes mfLoader {
+  0% {
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes mfLoader {
+  0% {
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
